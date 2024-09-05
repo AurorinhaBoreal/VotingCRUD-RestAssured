@@ -11,4 +11,11 @@ public class UserFixture {
             .cpf("51317577116")
             .build();
     }
+
+    public static User userInvalid() {
+        return User.builder()
+            .userType("COMMON")
+            .firstName("Claúdio")
+            .build();
+    }
 }
