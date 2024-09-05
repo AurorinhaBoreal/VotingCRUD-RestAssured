@@ -12,4 +12,12 @@ public class AgendaFixture {
             .duration(10)
             .build();
     }
+
+    public static Agenda agendaInvalid() {
+        return Agenda.builder()
+            .category("POTATO")
+            .question("Do you like potatoes?")
+            .cpf("58492933243")
+            .build();
+    }
 }
